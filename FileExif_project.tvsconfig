@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.ExifExtractor" Type="System.String" Value="ExifExtractor" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ExifWRTLoader" Type="System.String" Value="ExifWRTLoader" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.CCR.Exif" Type="System.String" Value="CCR\Exif" Category="General" IsBrowsable="False" />
+</TgConfig>

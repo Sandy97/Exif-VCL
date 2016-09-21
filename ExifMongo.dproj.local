@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.979,C:\_RADdeveloping\Exif\mfExif.dfm=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit9.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.323,=C:\_RADdeveloping\Exif\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.543,=C:\_RADdeveloping\Exif\uSplitView.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.700,C:\_RADdeveloping\Exif\myUtils.pas=C:\_RADdeveloping\Exif\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.230,C:\_RADdeveloping\Exif\ExifMongo.dproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project6.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.180,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.456,=C:\_RADdeveloping\Exif\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.979,C:\_RADdeveloping\Exif\mfExif.pas=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+  </Transactions>
+</BorlandProject>

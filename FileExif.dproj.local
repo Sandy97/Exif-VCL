@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.924,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\Exif\XMPUtils\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.163,=C:\_RADdeveloping\Exif\ExifWRTLoader.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.166,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\ExifWRTLoader\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.866,c:\_raddeveloping\exif\modelsupport_fileexif\ccr\exif\xmputils\default.txvpck=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.971,c:\_raddeveloping\exif\modelsupport_fileexif\ccr\exif\streamhelper\default.txvpck=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.030,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\Exif\StreamHelper\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.147,=C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\CCR.Exif.BaseUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.116,=C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\CCR.Exif.StreamHelper.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.253,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.393,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\ExifExtractor\default.txaPackage</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.695,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit6.dfm=C:\_RADdeveloping\Exif\mfFileExif.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.695,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit6.pas=C:\_RADdeveloping\Exif\mfFileExif.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.850,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\Exif\IPTC\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.041,c:\_raddeveloping\exif\modelsupport_fileexif\ccr\exif\iptc\default.txvpck=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.282,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\FileExif\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.063,=C:\_RADdeveloping\Exif\ExifExtractor.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.772,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\default.txaPackage</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.785,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\Exif\BaseUtils\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.119,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\Exif\JPEGUtils\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.783,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\Class Diagram.txvcls</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.685,=C:\_RADdeveloping\Exif\myUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.075,c:\_raddeveloping\exif\modelsupport_fileexif\ccr\exif\jpegutils\default.txvpck=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.932,c:\_raddeveloping\exif\modelsupport_fileexif\ccr\exif\baseutils\default.txvpck=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.649,=emsserverapi.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.053,=C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\CCR.Exif.Consts.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.100,=C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\CCR.Exif.TagIDs.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.257,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\ExifExtractor\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.069,=C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\CCR.Exif.XMPUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.007,c:\_raddeveloping\exif\modelsupport_fileexif\ccr\exif\tiffutils\default.txvpck=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.700,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\Exif\TiffUtils\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.581,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\Exif\TagIDs\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.084,=C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\CCR.Exif.TiffUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.090,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\mfFileExif\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.849,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\Exif\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.411,=C:\_RADdeveloping\Exif\ConvertersUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.618,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\Exif\Consts\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.105,c:\_raddeveloping\exif\modelsupport_fileexif\ccr\exif\consts\default.txvpck=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.163,=C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\CCR.Exif.JpegUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.150,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project4.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.852,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.353,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.289,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.187,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\CCR\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.242,C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\_RADdeveloping\Exif\FileExif.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.308,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\myUtils\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.131,=C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\CCR.Exif.IPTC.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.607,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.494,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.017,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.447,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.133,c:\_raddeveloping\exif\modelsupport_fileexif\ccr\exif\tagids\default.txvpck=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.117,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\ConvertersUtils\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.650,=C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\CCR.Exif.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.107,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.780,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\ExifWRTLoader\default.txaPackage</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.283,=C:\_RADdeveloping\Exif\ModelSupport_FileExif\default.txvpck</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.289,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.768,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.516,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,=C:\Users\asovtsov\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pabc iOSSimulator="iPhone5"/>
+		<NoProfile Android="36E6R16301000407"/>
+	</ActiveMobileDevice>
+</BorlandProject>

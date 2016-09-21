@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1246142A-ED69-4E87-9A19-3BC5D92CA429}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="dirfileslist.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mongoBasic\Mongo_Basic.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\ABC\abc-demos\ExifJSONMongo\ExifMongoQueryApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\VCL Demos\ExifList\ExifListXE.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="dirfileslist">
+        <MSBuild Projects="dirfileslist.dproj"/>
+    </Target>
+    <Target Name="dirfileslist:Clean">
+        <MSBuild Projects="dirfileslist.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dirfileslist:Make">
+        <MSBuild Projects="dirfileslist.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Mongo_Basic">
+        <MSBuild Projects="mongoBasic\Mongo_Basic.dproj"/>
+    </Target>
+    <Target Name="Mongo_Basic:Clean">
+        <MSBuild Projects="mongoBasic\Mongo_Basic.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Mongo_Basic:Make">
+        <MSBuild Projects="mongoBasic\Mongo_Basic.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExifMongoQueryApp">
+        <MSBuild Projects="C:\ABC\abc-demos\ExifJSONMongo\ExifMongoQueryApp.dproj"/>
+    </Target>
+    <Target Name="ExifMongoQueryApp:Clean">
+        <MSBuild Projects="C:\ABC\abc-demos\ExifJSONMongo\ExifMongoQueryApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExifMongoQueryApp:Make">
+        <MSBuild Projects="C:\ABC\abc-demos\ExifJSONMongo\ExifMongoQueryApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExifListXE">
+        <MSBuild Projects="C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\VCL Demos\ExifList\ExifListXE.dproj"/>
+    </Target>
+    <Target Name="ExifListXE:Clean">
+        <MSBuild Projects="C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\VCL Demos\ExifList\ExifListXE.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExifListXE:Make">
+        <MSBuild Projects="C:\Users\asovtsov\Downloads\CCR Exif v1.5.1\CCR Exif v1.5.1\VCL Demos\ExifList\ExifListXE.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="dirfileslist;Mongo_Basic;ExifMongoQueryApp;ExifListXE"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="dirfileslist:Clean;Mongo_Basic:Clean;ExifMongoQueryApp:Clean;ExifListXE:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="dirfileslist:Make;Mongo_Basic:Make;ExifMongoQueryApp:Make;ExifListXE:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

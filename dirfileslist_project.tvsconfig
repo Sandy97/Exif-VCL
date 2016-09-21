@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.ExifMongoLoaderTypes" Type="System.String" Value="ExifMongoLoaderTypes" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.dirfileslist" Type="System.String" Value="dirfileslist" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.myTaskQueue" Type="System.String" Value="myTaskQueue" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uDirFileList" Type="System.String" Value="uDirFileList" Category="General" IsBrowsable="False" />
+</TgConfig>
