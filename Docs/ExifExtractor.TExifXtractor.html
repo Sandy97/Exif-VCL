@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>dirFListExif2Mongo: ExifExtractor: Класс TExifXtractor</title>
+<meta name="generator" content="PasDoc 0.14.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<table class="container"><tr><td class="navigation">
+<h2>dirFListExif2Mongo</h2><p><a href="AllUnits.html" class="navigation">Модули</a></p><p><a href="ClassHierarchy.html" class="navigation">Иерархия классов</a></p><p><a href="AllClasses.html" class="navigation">Классы, интерфейсы и объекты</a></p><p><a href="AllTypes.html" class="navigation">Типы</a></p><p><a href="AllVariables.html" class="navigation">Переменные</a></p><p><a href="AllConstants.html" class="navigation">Константы</a></p><p><a href="AllFunctions.html" class="navigation">Процедуры и функции</a></p><p><a href="AllIdentifiers.html" class="navigation">Идентификаторы</a></p><p><a href="GVUses.png" class="navigation">График зависимости модулей</a></p><p><a href="GVClasses.png" class="navigation">График иерархии классов</a></p></td><td class="content">
+<a name="TExifXtractor"></a><h1 class="cio">Класс TExifXtractor</h1>
+<table class="sections wide_list">
+<tr>
+<td><a class="section" href="#PasDoc-Description">Описание</a></td><td><a class="section" href="#PasDoc-Hierarchy">Иерархия</a></td><td><a class="section" href="#PasDoc-Fields">Поля</a></td><td><a class="section" href="#PasDoc-Methods">Методы</a></td><td><a class="section" href="#PasDoc-Properties">Свойства</a></td></tr></table>
+<a name="PasDoc-Description"></a><h2 class="unit">Модуль</h2>
+<p class="unitlink">
+<a  href="ExifExtractor.html">ExifExtractor</a></p>
+<h2 class="declaration">Объявления</h2>
+<p class="declaration">
+<code>type TExifXtractor = class(TObject)</code></p>
+<h2 class="description">Описание</h2>
+<a name="PasDoc-Hierarchy"></a><h2 class="hierarchy">Иерархия</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="thisitem">TExifXtractor</li></ul><h2 class="overview">Обзор</h2>
+<a name="PasDoc-Fields"></a><h3 class="summary">Поля</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code><b><a  href="ExifExtractor.TExifXtractor.html#FFileVolBinded">FFileVolBinded</a></b>: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code><b><a  href="ExifExtractor.TExifXtractor.html#FExifData">FExifData</a></b>:TExifData;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code><b><a  href="ExifExtractor.TExifXtractor.html#FwithThumbN">FwithThumbN</a></b>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code><b><a  href="ExifExtractor.TExifXtractor.html#FThumbnail">FThumbnail</a></b>: TPicture;</code></td>
+</tr>
+</table>
+<a name="PasDoc-Methods"></a><h3 class="summary">Методы</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <b><a  href="ExifExtractor.TExifXtractor.html#Create">Create</a></b>(const fullFileName: string); overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <b><a  href="ExifExtractor.TExifXtractor.html#Create">Create</a></b>(const fullFileName: string; volInfoRec: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>); overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>destructor <b><a  href="ExifExtractor.TExifXtractor.html#Destroy">Destroy</a></b>; override;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <b><a  href="ExifExtractor.TExifXtractor.html#AsString">AsString</a></b>: string;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <b><a  href="ExifExtractor.TExifXtractor.html#toJSON">toJSON</a></b>(wrt: <a  href="ExifExtractor.TExifCustomWriter.html">TExifCustomWriter</a>): TJSONObject;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <b><a  href="ExifExtractor.TExifXtractor.html#toMongoDB">toMongoDB</a></b>(mongoConnect:TFDConnection; const insert,batch:boolean):string;</code></td>
+</tr>
+</table>
+<a name="PasDoc-Properties"></a><h3 class="summary">Свойства</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <b><a  href="ExifExtractor.TExifXtractor.html#isActive">isActive</a></b>: boolean read GetisActive;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <b><a  href="ExifExtractor.TExifXtractor.html#thumbnail">thumbnail</a></b>: TPicture read GetThumbnail;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <b><a  href="ExifExtractor.TExifXtractor.html#withThumbN">withThumbN</a></b>: boolean read <a  href="ExifExtractor.TExifXtractor.html#FwithThumbN">FwithThumbN</a> write SetwithThumbN;</code></td>
+</tr>
+</table>
+<h2 class="description">Описание</h2>
+<h3 class="detail">Поля</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="FFileVolBinded"></a><code><b>FFileVolBinded</b>: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="FExifData"></a><code><b>FExifData</b>:TExifData;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="FwithThumbN"></a><code><b>FwithThumbN</b>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="FThumbnail"></a><code><b>FThumbnail</b>: TPicture;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<h3 class="detail">Методы</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Create"></a><code>constructor <b>Create</b>(const fullFileName: string); overload;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Create"></a><code>constructor <b>Create</b>(const fullFileName: string; volInfoRec: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>); overload;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Destroy"></a><code>destructor <b>Destroy</b>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="AsString"></a><code>function <b>AsString</b>: string;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="toJSON"></a><code>function <b>toJSON</b>(wrt: <a  href="ExifExtractor.TExifCustomWriter.html">TExifCustomWriter</a>): TJSONObject;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="toMongoDB"></a><code>function <b>toMongoDB</b>(mongoConnect:TFDConnection; const insert,batch:boolean):string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+TJSONAncestor</p>
+</td></tr>
+</table>
+<h3 class="detail">Свойства</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="isActive"></a><code>property <b>isActive</b>: boolean read GetisActive;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+function toString(wrt: TJsonObjectWriter): string; function toBSON(wrt: TBSONWriter): TJSONObject; //TJSONAncestor function toStream(stm: TStream): boolean;</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="thumbnail"></a><code>property <b>thumbnail</b>: TPicture read GetThumbnail;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="withThumbN"></a><code>property <b>withThumbN</b>: boolean read <a  href="ExifExtractor.TExifXtractor.html#FwithThumbN">FwithThumbN</a> write SetwithThumbN;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<hr noshade size="1"><span class="appinfo"><em>Сгенерировал <a  href="http://pasdoc.sourceforge.net/">PasDoc 0.14.0</a>. </em>
+</span>
+</td></tr></table></body></html>

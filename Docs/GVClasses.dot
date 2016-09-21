@@ -1,0 +1,24 @@
+DiGraph Classes {
+  IMyExifLoader -> IInterface
+  IMyExifLoader [href="ExifMongoLoaderTypes.IMyExifLoader.html"]
+  TfmDirFileList -> TForm
+  TfmDirFileList [href="uDirFileList.TfmDirFileList.html"]
+  TfmMainUI -> TForm
+  TfmMainUI [href="mfExif.TfmMainUI.html"]
+  TExifCustomLoader -> TInterfacedObject
+  TExifCustomLoader [href="ExifMongoLoaderTypes.TExifCustomLoader.html"]
+  TExifMongoLoader -> TExifCustomLoader
+  TExifMongoLoader [href="ExifMongoLoaderTypes.TExifMongoLoader.html"]
+  TExifCoupledLoader -> TExifMongoLoader
+  TExifCoupledLoader [href="ExifMongoLoaderTypes.TExifCoupledLoader.html"]
+  TExifSingleLoader -> TExifMongoLoader
+  TExifSingleLoader [href="ExifMongoLoaderTypes.TExifSingleLoader.html"]
+  TExifCustomWriter -> TObject
+  TExifCustomWriter [href="ExifExtractor.TExifCustomWriter.html"]
+  TExifMongoHelper -> TObject
+  TExifMongoHelper [href="ExifMongoHelper.TExifMongoHelper.html"]
+  TExifXtractor -> TObject
+  TExifXtractor [href="ExifExtractor.TExifXtractor.html"]
+  TmyTaskQueue -> TObject
+  TmyTaskQueue [href="myTaskQueue.TmyTaskQueue.html"]
+}

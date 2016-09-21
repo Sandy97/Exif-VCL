@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>dirFListExif2Mongo: ExifMongoLoaderTypes: Класс TExifCoupledLoader</title>
+<meta name="generator" content="PasDoc 0.14.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<table class="container"><tr><td class="navigation">
+<h2>dirFListExif2Mongo</h2><p><a href="AllUnits.html" class="navigation">Модули</a></p><p><a href="ClassHierarchy.html" class="navigation">Иерархия классов</a></p><p><a href="AllClasses.html" class="navigation">Классы, интерфейсы и объекты</a></p><p><a href="AllTypes.html" class="navigation">Типы</a></p><p><a href="AllVariables.html" class="navigation">Переменные</a></p><p><a href="AllConstants.html" class="navigation">Константы</a></p><p><a href="AllFunctions.html" class="navigation">Процедуры и функции</a></p><p><a href="AllIdentifiers.html" class="navigation">Идентификаторы</a></p><p><a href="GVUses.png" class="navigation">График зависимости модулей</a></p><p><a href="GVClasses.png" class="navigation">График иерархии классов</a></p></td><td class="content">
+<a name="TExifCoupledLoader"></a><h1 class="cio">Класс TExifCoupledLoader</h1>
+<table class="sections wide_list">
+<tr>
+<td><a class="section" href="#PasDoc-Description">Описание</a></td><td><a class="section" href="#PasDoc-Hierarchy">Иерархия</a></td><td>Поля</td><td><a class="section" href="#PasDoc-Methods">Методы</a></td><td>Свойства</td></tr></table>
+<a name="PasDoc-Description"></a><h2 class="unit">Модуль</h2>
+<p class="unitlink">
+<a  href="ExifMongoLoaderTypes.html">ExifMongoLoaderTypes</a></p>
+<h2 class="declaration">Объявления</h2>
+<p class="declaration">
+<code>type TExifCoupledLoader = class(<a class="normal" href="ExifMongoLoaderTypes.TExifMongoLoader.html">TExifMongoLoader</a>)</code></p>
+<h2 class="description">Описание</h2>
+<p>
+������� 1 : �������� � Loader ������, ����� ������ ���: LdrResult:=Loader.ToMongoAsSingle(it {keyinfo},FDConnection1,DBname, colName, cbInsert.Checked,cbBatch.Checked) LdrResult:=Loader.ToMongoAsCoupled(it {keyinfo},FDConnection1,DBname, colName1, colName2, cbInsert.Checked,cbBatch.Checked) ������ �������� ����� ��� ������� ���� �� TExifMongoSinleLdr.Create(FDConnection1,inimap); � TExifMongoCoupledLdr.Create(FDConnection1,inimap);</p>
+<a name="PasDoc-Hierarchy"></a><h2 class="hierarchy">Иерархия</h2>
+<ul class="hierarchy"><li class="ancestor">TInterfacedObject</li>
+<li class="ancestor"><a class="normal" href="ExifMongoLoaderTypes.TExifCustomLoader.html">TExifCustomLoader</a></li>
+<li class="ancestor"><a class="normal" href="ExifMongoLoaderTypes.TExifMongoLoader.html">TExifMongoLoader</a></li>
+<li class="thisitem">TExifCoupledLoader</li></ul><h2 class="overview">Обзор</h2>
+<a name="PasDoc-Methods"></a><h3 class="summary">Методы</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <b><a  href="ExifMongoLoaderTypes.TExifCoupledLoader.html#StoreToDB">StoreToDB</a></b>(const keynfo: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>; Connect: TFDConnection; const db: string; colnames: array of string; const insert: boolean): string;</code></td>
+</tr>
+</table>
+<h2 class="description">Описание</h2>
+<h3 class="detail">Методы</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="StoreToDB"></a><code>function <b>StoreToDB</b>(const keynfo: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>; Connect: TFDConnection; const db: string; colnames: array of string; const insert: boolean): string;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<hr noshade size="1"><span class="appinfo"><em>Сгенерировал <a  href="http://pasdoc.sourceforge.net/">PasDoc 0.14.0</a>. </em>
+</span>
+</td></tr></table></body></html>

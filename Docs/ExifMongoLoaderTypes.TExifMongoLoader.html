@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>dirFListExif2Mongo: ExifMongoLoaderTypes: Класс TExifMongoLoader</title>
+<meta name="generator" content="PasDoc 0.14.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<table class="container"><tr><td class="navigation">
+<h2>dirFListExif2Mongo</h2><p><a href="AllUnits.html" class="navigation">Модули</a></p><p><a href="ClassHierarchy.html" class="navigation">Иерархия классов</a></p><p><a href="AllClasses.html" class="navigation">Классы, интерфейсы и объекты</a></p><p><a href="AllTypes.html" class="navigation">Типы</a></p><p><a href="AllVariables.html" class="navigation">Переменные</a></p><p><a href="AllConstants.html" class="navigation">Константы</a></p><p><a href="AllFunctions.html" class="navigation">Процедуры и функции</a></p><p><a href="AllIdentifiers.html" class="navigation">Идентификаторы</a></p><p><a href="GVUses.png" class="navigation">График зависимости модулей</a></p><p><a href="GVClasses.png" class="navigation">График иерархии классов</a></p></td><td class="content">
+<a name="TExifMongoLoader"></a><h1 class="cio">Класс TExifMongoLoader</h1>
+<table class="sections wide_list">
+<tr>
+<td><a class="section" href="#PasDoc-Description">Описание</a></td><td><a class="section" href="#PasDoc-Hierarchy">Иерархия</a></td><td>Поля</td><td><a class="section" href="#PasDoc-Methods">Методы</a></td><td><a class="section" href="#PasDoc-Properties">Свойства</a></td></tr></table>
+<a name="PasDoc-Description"></a><h2 class="unit">Модуль</h2>
+<p class="unitlink">
+<a  href="ExifMongoLoaderTypes.html">ExifMongoLoaderTypes</a></p>
+<h2 class="declaration">Объявления</h2>
+<p class="declaration">
+<code>type TExifMongoLoader = class(<a class="normal" href="ExifMongoLoaderTypes.TExifCustomLoader.html">TExifCustomLoader</a>, <a class="normal" href="ExifMongoLoaderTypes.IMyExifLoader.html">IMyExifLoader</a>)</code></p>
+<h2 class="description">Описание</h2>
+<p>
+FPartOptions: <a class="normal" href="ExifMongoLoaderTypes.html#TPartOptSet">TPartOptSet</a>; constructor <a class="normal" href="ExifMongoLoaderTypes.TExifMongoLoader.html#Create">Create</a>(<a class="normal" href="ExifMongoLoaderTypes.TExifMongoLoader.html#PartOptions">PartOptions</a>: <a class="normal" href="ExifMongoLoaderTypes.html#TPartOptSet">TPartOptSet</a>); property <a class="normal" href="ExifMongoLoaderTypes.TExifMongoLoader.html#PartOptions">PartOptions</a>: <a class="normal" href="ExifMongoLoaderTypes.html#TPartOptSet">TPartOptSet</a>;</p>
+<a name="PasDoc-Hierarchy"></a><h2 class="hierarchy">Иерархия</h2>
+<ul class="hierarchy"><li class="ancestor">TInterfacedObject</li>
+<li class="ancestor"><a class="normal" href="ExifMongoLoaderTypes.TExifCustomLoader.html">TExifCustomLoader</a></li>
+<li class="thisitem">TExifMongoLoader</li></ul><h2 class="overview">Обзор</h2>
+<a name="PasDoc-Methods"></a><h3 class="summary">Методы</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#Create">Create</a></b>; overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#Create">Create</a></b>(Connect: TFDConnection; const PartOptions: <a  href="ExifMongoLoaderTypes.html#TPartOptSet">TPartOptSet</a>); overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#Create">Create</a></b>(ConnectDefName: string; const PartOptions: <a  href="ExifMongoLoaderTypes.html#TPartOptSet">TPartOptSet</a>); overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>destructor <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#Destroy">Destroy</a></b>; override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#Clear">Clear</a></b>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#LoadKey">LoadKey</a></b>(FileKeyinfo: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#LoadMakerNoteValues">LoadMakerNoteValues</a></b>(MakerNote: TExifMakerNote; ValueMap: TCustomIniFile);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#LoadStandardValues">LoadStandardValues</a></b>(iExifData: TExifData);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#LoadGraphics">LoadGraphics</a></b>(img: TPicture);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#SetConnectionParams">SetConnectionParams</a></b>(Connect: TFDConnection; const dbname: string; collections: array of string; const insert, batch: boolean);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#StoreDefaultDB">StoreDefaultDB</a></b>(const keynfo: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>; const insert: boolean): string;</code></td>
+</tr>
+</table>
+<a name="PasDoc-Properties"></a><h3 class="summary">Свойства</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <b><a  href="ExifMongoLoaderTypes.TExifMongoLoader.html#PartOptions">PartOptions</a></b>: <a  href="ExifMongoLoaderTypes.html#TPartOptSet">TPartOptSet</a> read FPartOptions write SetPartOptions;</code></td>
+</tr>
+</table>
+<h2 class="description">Описание</h2>
+<h3 class="detail">Методы</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Create"></a><code>constructor <b>Create</b>; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Create"></a><code>constructor <b>Create</b>(Connect: TFDConnection; const PartOptions: <a  href="ExifMongoLoaderTypes.html#TPartOptSet">TPartOptSet</a>); overload;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Create"></a><code>constructor <b>Create</b>(ConnectDefName: string; const PartOptions: <a  href="ExifMongoLoaderTypes.html#TPartOptSet">TPartOptSet</a>); overload;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Destroy"></a><code>destructor <b>Destroy</b>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Clear"></a><code>procedure <b>Clear</b>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+���������</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="LoadKey"></a><code>procedure <b>LoadKey</b>(FileKeyinfo: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="LoadMakerNoteValues"></a><code>procedure <b>LoadMakerNoteValues</b>(MakerNote: TExifMakerNote; ValueMap: TCustomIniFile);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="LoadStandardValues"></a><code>procedure <b>LoadStandardValues</b>(iExifData: TExifData);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="LoadGraphics"></a><code>procedure <b>LoadGraphics</b>(img: TPicture);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="SetConnectionParams"></a><code>procedure <b>SetConnectionParams</b>(Connect: TFDConnection; const dbname: string; collections: array of string; const insert, batch: boolean);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+specific to MongoDB</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="StoreDefaultDB"></a><code>function <b>StoreDefaultDB</b>(const keynfo: <a  href="myUtils.TFileVolBinded.html">TFileVolBinded</a>; const insert: boolean): string;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<h3 class="detail">Свойства</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="PartOptions"></a><code>property <b>PartOptions</b>: <a  href="ExifMongoLoaderTypes.html#TPartOptSet">TPartOptSet</a> read FPartOptions write SetPartOptions;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<hr noshade size="1"><span class="appinfo"><em>Сгенерировал <a  href="http://pasdoc.sourceforge.net/">PasDoc 0.14.0</a>. </em>
+</span>
+</td></tr></table></body></html>

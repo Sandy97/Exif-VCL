@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>dirFListExif2Mongo: myTaskQueue: Класс TmyTaskQueue</title>
+<meta name="generator" content="PasDoc 0.14.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<table class="container"><tr><td class="navigation">
+<h2>dirFListExif2Mongo</h2><p><a href="AllUnits.html" class="navigation">Модули</a></p><p><a href="ClassHierarchy.html" class="navigation">Иерархия классов</a></p><p><a href="AllClasses.html" class="navigation">Классы, интерфейсы и объекты</a></p><p><a href="AllTypes.html" class="navigation">Типы</a></p><p><a href="AllVariables.html" class="navigation">Переменные</a></p><p><a href="AllConstants.html" class="navigation">Константы</a></p><p><a href="AllFunctions.html" class="navigation">Процедуры и функции</a></p><p><a href="AllIdentifiers.html" class="navigation">Идентификаторы</a></p><p><a href="GVUses.png" class="navigation">График зависимости модулей</a></p><p><a href="GVClasses.png" class="navigation">График иерархии классов</a></p></td><td class="content">
+<a name="TmyTaskQueue"></a><h1 class="cio">Класс TmyTaskQueue</h1>
+<table class="sections wide_list">
+<tr>
+<td><a class="section" href="#PasDoc-Description">Описание</a></td><td><a class="section" href="#PasDoc-Hierarchy">Иерархия</a></td><td><a class="section" href="#PasDoc-Fields">Поля</a></td><td><a class="section" href="#PasDoc-Methods">Методы</a></td><td>Свойства</td></tr></table>
+<a name="PasDoc-Description"></a><h2 class="unit">Модуль</h2>
+<p class="unitlink">
+<a  href="myTaskQueue.html">myTaskQueue</a></p>
+<h2 class="declaration">Объявления</h2>
+<p class="declaration">
+<code>type TmyTaskQueue&lt;T&gt; = class(TObject)</code></p>
+<h2 class="description">Описание</h2>
+<p>
+todo 1 : ��������</p>
+<a name="PasDoc-Hierarchy"></a><h2 class="hierarchy">Иерархия</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="thisitem">TmyTaskQueue</li></ul><h2 class="overview">Обзор</h2>
+<a name="PasDoc-Fields"></a><h3 class="summary">Поля</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code><b><a  href="myTaskQueue.TmyTaskQueue.html#FNotificationCenter">FNotificationCenter</a></b>: TNotificationCenter;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code><b><a  href="myTaskQueue.TmyTaskQueue.html#FQueue">FQueue</a></b>: TQueue&lt;T&gt;;</code></td>
+</tr>
+</table>
+<a name="PasDoc-Methods"></a><h3 class="summary">Методы</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <b><a  href="myTaskQueue.TmyTaskQueue.html#isEmpty">isEmpty</a></b>: Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="myTaskQueue.TmyTaskQueue.html#DoNotification">DoNotification</a></b>(const nuName, nuTitle, nuBody: string);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <b><a  href="myTaskQueue.TmyTaskQueue.html#Create">Create</a></b>();</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>destructor <b><a  href="myTaskQueue.TmyTaskQueue.html#Destroy">Destroy</a></b>(); override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="myTaskQueue.TmyTaskQueue.html#Add">Add</a></b>(itm: T);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="myTaskQueue.TmyTaskQueue.html#Clear">Clear</a></b>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <b><a  href="myTaskQueue.TmyTaskQueue.html#Process">Process</a></b>(P: <a  href="myTaskQueue.html#TProcessRef">TProcessRef</a>&lt;T&gt;);</code></td>
+</tr>
+</table>
+<h2 class="description">Описание</h2>
+<h3 class="detail">Поля</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="FNotificationCenter"></a><code><b>FNotificationCenter</b>: TNotificationCenter;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="FQueue"></a><code><b>FQueue</b>: TQueue&lt;T&gt;;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<h3 class="detail">Методы</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="isEmpty"></a><code>function <b>isEmpty</b>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="DoNotification"></a><code>procedure <b>DoNotification</b>(const nuName, nuTitle, nuBody: string);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Create"></a><code>constructor <b>Create</b>();</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Destroy"></a><code>destructor <b>Destroy</b>(); override;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Add"></a><code>procedure <b>Add</b>(itm: T);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Clear"></a><code>procedure <b>Clear</b>;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a  href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><a name="Process"></a><code>procedure <b>Process</b>(P: <a  href="myTaskQueue.html#TProcessRef">TProcessRef</a>&lt;T&gt;);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<hr noshade size="1"><span class="appinfo"><em>Сгенерировал <a  href="http://pasdoc.sourceforge.net/">PasDoc 0.14.0</a>. </em>
+</span>
+</td></tr></table></body></html>

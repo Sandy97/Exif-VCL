@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>dirFListExif2Mongo: myUtils</title>
+<meta name="generator" content="PasDoc 0.14.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<table class="container"><tr><td class="navigation">
+<h2>dirFListExif2Mongo</h2><p><a href="AllUnits.html" class="navigation">Модули</a></p><p><a href="ClassHierarchy.html" class="navigation">Иерархия классов</a></p><p><a href="AllClasses.html" class="navigation">Классы, интерфейсы и объекты</a></p><p><a href="AllTypes.html" class="navigation">Типы</a></p><p><a href="AllVariables.html" class="navigation">Переменные</a></p><p><a href="AllConstants.html" class="navigation">Константы</a></p><p><a href="AllFunctions.html" class="navigation">Процедуры и функции</a></p><p><a href="AllIdentifiers.html" class="navigation">Идентификаторы</a></p><p><a href="GVUses.png" class="navigation">График зависимости модулей</a></p><p><a href="GVClasses.png" class="navigation">График иерархии классов</a></p></td><td class="content">
+<h1 class="unit">Модуль myUtils</h1>
+<table class="sections wide_list">
+<tr>
+<td><a class="section" href="#PasDoc-Description">Описание</a></td><td><a class="section" href="#PasDoc-Uses">Используемые модули</a></td><td><a class="section" href="#PasDoc-Classes">Классы, интерфейсы и объекты</a></td><td><a class="section" href="#PasDoc-FuncsProcs">Процедуры и функции</a></td><td><a class="section" href="#PasDoc-Types">Типы</a></td><td><a class="section" href="#PasDoc-Constants">Константы</a></td><td>Переменные</td></tr></table>
+<a name="PasDoc-Description"></a><h2 class="description">Описание</h2>
+&nbsp;<a name="PasDoc-Uses"></a><h2 class="uses">Используемые модули</h2>
+<ul class="useslist"><li>Winapi.Windows</li><li>Winapi.Messages</li><li>Vcl.Graphics</li><li>Jpeg</li><li>System.SysUtils</li><li>System.Variants</li><li>System.Classes</li><li>System.Types</li></ul><h2 class="overview">Обзор</h2>
+<a name="PasDoc-Classes"></a><h3 class="cio">Классы, интерфейсы и объекты</h3>
+<table class="classestable wide_list">
+<tr class="listheader">
+<th class="itemname">Имя</th>
+<th class="itemdesc">Описание</th>
+</tr>
+<tr class="list">
+<td class="itemname">record&nbsp;<a class="bold" href="myUtils.HDDVolumeInfo.html"><code>HDDVolumeInfo</code></a></td>
+<td class="itemdesc">&nbsp;</td>
+</tr>
+<tr class="list2">
+<td class="itemname">record&nbsp;<a class="bold" href="myUtils.TFileVolBinded.html"><code>TFileVolBinded</code></a></td>
+<td class="itemdesc">&nbsp;</td>
+</tr>
+</table>
+<a name="PasDoc-FuncsProcs"></a><h3 class="summary">Процедуры и функции</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="itemcode"><code>function <b><a  href="myUtils.html#GetVolumeLabel">GetVolumeLabel</a></b>(const DriveChar: Char): string;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <b><a  href="myUtils.html#GetVolumeInfo">GetVolumeInfo</a></b>(const DrivePath: String): <a  href="myUtils.HDDVolumeInfo.html">HDDVolumeInfo</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <b><a  href="myUtils.html#getHDDVolumeInfo">getHDDVolumeInfo</a></b>(const DrivePath: string): <a  href="myUtils.HDDVolumeInfo.html">HDDVolumeInfo</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>procedure <b><a  href="myUtils.html#GetDirectories">GetDirectories</a></b>(const DirStr : string; Items : TStrings);</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>procedure <b><a  href="myUtils.html#GetFiles">GetFiles</a></b>(const DirStr : string; mask: string; Items : TStrings);</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <b><a  href="myUtils.html#CheckScapeString">CheckScapeString</a></b>(const Value: string): string;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <b><a  href="myUtils.html#ImageToBytes">ImageToBytes</a></b>(img:TGraphic): TBytes;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>procedure <b><a  href="myUtils.html#ScanDir">ScanDir</a></b>(StartDir: string; Mask: string; List: TStrings);</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>procedure <b><a  href="myUtils.html#btTdirectoryClick">btTdirectoryClick</a></b>(const StartDir: string; const Mask: string; List: TStrings);</code></td>
+</tr>
+</table>
+<a name="PasDoc-Types"></a><h3 class="summary">Типы</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="itemcode"><code><b><a  href="myUtils.html#DRVTYPECONST">DRVTYPECONST</a></b> = DRIVE_UNKNOWN..DRIVE_RAMDISK;</code></td>
+</tr>
+</table>
+<a name="PasDoc-Constants"></a><h3 class="summary">Константы</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="itemcode"><code><b><a  href="myUtils.html#drvseeking">drvseeking</a></b>: set of <a  href="myUtils.html#DRVTYPECONST">DRVTYPECONST</a> = [
+    DRIVE_UNKNOWN,      
+    DRIVE_NO_ROOT_DIR,  
+    DRIVE_REMOVABLE,    
+    DRIVE_FIXED,        
+    DRIVE_REMOTE,       
+    DRIVE_CDROM,        
+    DRIVE_RAMDISK       
+  ];</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><b><a  href="myUtils.html#DriveTypeNames">DriveTypeNames</a></b> : array [DRIVE_UNKNOWN..DRIVE_RAMDISK] of string = (
+    'UNKNOWN',
+    'NO_ROOT_DIR',
+    'REMOVABLE',
+    'FIXED',
+    'REMOTE',
+    'CDROM',
+    'RAMDISK'
+  );</code></td>
+</tr>
+</table>
+<h2 class="description">Описание</h2>
+<h3 class="detail">Процедуры и функции</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="GetVolumeLabel"></a><code>function <b>GetVolumeLabel</b>(const DriveChar: Char): string;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+//laVSerial.Caption := HDDVolumeInfo.serialNum.ToHexString; //laVLabel.Caption := <a class="normal" href="myUtils.HDDVolumeInfo.html#VolLabel">HDDVolumeInfo.VolLabel</a>; //laFsystem.Caption := <a class="normal" href="myUtils.HDDVolumeInfo.html#fileSysName">HDDVolumeInfo.fileSysName</a>; //laDrvType.Caption:=format('dType=%d, &quot;%s&quot;',[<a class="normal" href="myUtils.HDDVolumeInfo.html#diskType">HDDVolumeInfo.diskType</a>, <a class="normal" href="myUtils.html#DriveTypeNames">DriveTypeNames</a>[<a class="normal" href="myUtils.HDDVolumeInfo.html#diskType">HDDVolumeInfo.diskType</a>]]);</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="GetVolumeInfo"></a><code>function <b>GetVolumeInfo</b>(const DrivePath: String): <a  href="myUtils.HDDVolumeInfo.html">HDDVolumeInfo</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="getHDDVolumeInfo"></a><code>function <b>getHDDVolumeInfo</b>(const DrivePath: string): <a  href="myUtils.HDDVolumeInfo.html">HDDVolumeInfo</a>;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="GetDirectories"></a><code>procedure <b>GetDirectories</b>(const DirStr : string; Items : TStrings);</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="GetFiles"></a><code>procedure <b>GetFiles</b>(const DirStr : string; mask: string; Items : TStrings);</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="CheckScapeString"></a><code>function <b>CheckScapeString</b>(const Value: string): string;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="ImageToBytes"></a><code>function <b>ImageToBytes</b>(img:TGraphic): TBytes;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="ScanDir"></a><code>procedure <b>ScanDir</b>(StartDir: string; Mask: string; List: TStrings);</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="btTdirectoryClick"></a><code>procedure <b>btTdirectoryClick</b>(const StartDir: string; const Mask: string; List: TStrings);</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<h3 class="detail">Типы</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="DRVTYPECONST"></a><code><b>DRVTYPECONST</b> = DRIVE_UNKNOWN..DRIVE_RAMDISK;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<h3 class="detail">Константы</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="drvseeking"></a><code><b>drvseeking</b>: set of <a  href="myUtils.html#DRVTYPECONST">DRVTYPECONST</a> = [
+    DRIVE_UNKNOWN,      
+    DRIVE_NO_ROOT_DIR,  
+    DRIVE_REMOVABLE,    
+    DRIVE_FIXED,        
+    DRIVE_REMOTE,       
+    DRIVE_CDROM,        
+    DRIVE_RAMDISK       
+  ];</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><a name="DriveTypeNames"></a><code><b>DriveTypeNames</b> : array [DRIVE_UNKNOWN..DRIVE_RAMDISK] of string = (
+    'UNKNOWN',
+    'NO_ROOT_DIR',
+    'REMOVABLE',
+    'FIXED',
+    'REMOTE',
+    'CDROM',
+    'RAMDISK'
+  );</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+= 0; = 1; = 2; = 3; = 4; = 5; = 6;</p>
+</td></tr>
+</table>
+<hr noshade size="1"><span class="appinfo"><em>Сгенерировал <a  href="http://pasdoc.sourceforge.net/">PasDoc 0.14.0</a>. </em>
+</span>
+</td></tr></table></body></html>
